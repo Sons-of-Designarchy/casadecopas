@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Dahlia';
+  src: url('fonts/dahlia.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Carola';
+  src: url('fonts/carola.otf') format('opentype');
+}
+
+html, body {
+  font-family: 'Dahlia', serif;
+}
+
+h1 {
+  font-family: 'Carola', serif;
+}
+
+h2 { 
+  font-size: 50px!important;
+}
+
+
+.display { 
+  font-size: 100px!important;
+}
+
+.text-orange {
+  color: #FD6854;
+}
+
+@media (min-width: 769px) {
+  .display {
+    font-size: 250px!important;
+    line-height: 230px;
+  }
+
+  .display-xl {
+    font-size: 280px!important;
+    line-height: 250px;
+  }
+
+  h2 {
+    font-size: 100px!important;
+    line-height: 100px;
+  }
+
+  p {
+    font-size: 60px!important;
+  }
+}
+
+.section {
+  background: #fff;
+  padding: 5rem 0;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  background: #D9C8B8;
+}
+
+.hero img {
+  margin: -1.5rem 0 0.5rem;
+}
+
+.welcome {
+  background: #FD7D54;
+}
+
+.about {
+  background: #000 url('images/about-bg.png') no-repeat;
+  background-size: auto 100%;
+  background-position: top right;
+  color: #ffff;
+}
+
+.footer {
+  background: #C6D48C;
+}
+
+.floated-menu {
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+  opacity: 0.8;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.floated {
+  position: absolute;
+}
+
+.cup {
+  right: 1rem;
+}
+
+.dogs {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.house {
+  bottom: 0;
+  right: 0;
+}

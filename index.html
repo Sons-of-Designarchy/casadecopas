@@ -2,44 +2,64 @@
 
 <head>
   <meta charset="utf-8">
-
-
-  <style>
-    /* Your CSS styles go here */
-    body {
-      background-color: #000;
-      color: #333;
-    }
-
-    .main {
-      max-width: 1280px;
-      margin: 0 auto;
-      text-align: center;
-      height: 90vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .logo {
-      width: 200px;
-      display: block;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    /* Add more styles as needed */
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <title>Casa de Copas</title>
 </head>
 
 <body>
 
-  <div class="main">
-    <a href="https://www.instagram.com/casadecopasmx/" class="logo">
-      <img src="logo.svg" />
-    </a>
+  <div class="floated-menu">
+    <img src="images/menu/logo.svg" />
+    <img src="images/menu/cup.svg" class="floated cup" />
+    <img src="images/menu/dogs.svg" class="floated dogs" />
+    <img src="images/menu/house.svg" class="floated house" />
+  </div>
+
+  <div class="hero section text-center">
+    <div class="container mx-auto">
+      <h1 class="display text-orange">FOR THE ACT</h1>
+      <img src="images/hero-cover.jpg" />
+      <h1 class="display text-orange">OF CREATION</h1>
+    </div>
+  </div>
+
+  <div class="welcome section text-center">
+    <div class="container mx-auto">
+      <h2>Casa de Copas is the first interdisciplinary & community-first recording space focused on the creation of
+        holistic
+        music and creative projects in Mexico City.</h2>
+      <div class="flex justify-between">
+        <p>opening early 2024</p>
+        <div>enter email, join the cult</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service section text-center">
+    <div class="container mx-auto">
+      <h1 class="display-xl">The wounds heals in service</h1>
+    </div>
+  </div>
+
+  <div class="about section">
+    <div class="container mx-auto">
+      <div class="w-3/4">
+        <p>Casa de Copas it’s an invitation to join a movement. <br />
+          Not only to visit or hang. But to connect. <br />
+          An invitation to be part of something bigger. <br />
+          Feel at home in our welcoming, consciously designed art creation house. <br /></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer section text-center text-orange">
+    <div class="container mx-auto text-center">
+      <h1 class="display-xl">THE HOUSE FOR CREATIVITY</h1>
+      <img src="images/footer-sun.jpg" class="my-5" />
+      <p>CASA DE COPAS EST. 2024</p>
+    </div>
   </div>
 
 </body>
