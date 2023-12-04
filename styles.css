@@ -18,8 +18,8 @@ h1 {
 }
 
 .display-xl {
-  font-size: 150px !important;
-  line-height: 120px;
+  font-size: 120px !important;
+  line-height: 100px;
   word-wrap: break-word;
 }
 
@@ -247,12 +247,12 @@ bottom: 2rem;
 
   .human {
     left: 0rem;
-    bottom: 12rem;
+    bottom: 10rem;
   }
 
   .sun {
     right: 0rem;
-    bottom: 12rem;
+    bottom: 10rem;
   }
 
   .gold {
